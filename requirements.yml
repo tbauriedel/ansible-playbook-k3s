@@ -1,0 +1,4 @@
+---
+roles:
+  - tbauriedel.hosts
+  - tbauriedel.k3s

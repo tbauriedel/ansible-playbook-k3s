@@ -1,0 +1,3 @@
+---
+k3s_node_type: agent
+k3s_master: kube-1.local.kube

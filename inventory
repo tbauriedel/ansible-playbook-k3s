@@ -1,0 +1,9 @@
+[k3scluster:children]
+k3smaster
+k3sworker
+
+[k3smaster]
+kube-1.local.kube   ansible_user=debian
+
+[k3sworker]
+kube-2.local.kube   ansible_user=debian

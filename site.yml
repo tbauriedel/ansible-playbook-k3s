@@ -1,0 +1,6 @@
+---
+- name: Introduce hosts to each other
+  ansible.builtin.import_playbook: playbooks/hosts.yml
+
+- name: Install k3s
+  ansible.builtin.import_playbook: playbooks/k3s.yml

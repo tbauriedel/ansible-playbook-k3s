@@ -1,0 +1,11 @@
+---
+- hosts: k3smaster
+  become: true
+  roles:
+    - tbauriedel.k3s
+
+# Worker needs to run after the master. 
+- hosts: k3sworker
+  become: true
+  roles:
+    - tbauriedel.k3s
